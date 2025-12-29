@@ -21,7 +21,7 @@ import  CFood  from './Content/CFood'
 const App = () => {
   
   return (
-    <BrowserRouter basename="/Blog-Project/" >    
+    <BrowserRouter basename="/Blog-Project" >    
      
       <Routes>
         <Route path='/'  element={<Header/>} >
